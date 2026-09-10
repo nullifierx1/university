@@ -1,0 +1,65 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='720' viewBox='0 0 1200 720'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='600' y='34' text-anchor='middle' font-family='Arial' font-size='24' font-weight='700'>Throughput by workload profile, TTL = 0 ms</text>
+<text x='24' y='320' transform='rotate(-90 24 320)' text-anchor='middle' font-family='Arial' font-size='15'>thousand ops/sec</text>
+<line x1='90' y1='570' x2='1160' y2='570' stroke='#e5e7eb'/>
+<text x='78' y='575' text-anchor='end' font-family='Arial' font-size='12'>0</text>
+<line x1='90' y1='470' x2='1160' y2='470' stroke='#e5e7eb'/>
+<text x='78' y='475' text-anchor='end' font-family='Arial' font-size='12'>961.83</text>
+<line x1='90' y1='370' x2='1160' y2='370' stroke='#e5e7eb'/>
+<text x='78' y='375' text-anchor='end' font-family='Arial' font-size='12'>1923.65</text>
+<line x1='90' y1='270' x2='1160' y2='270' stroke='#e5e7eb'/>
+<text x='78' y='275' text-anchor='end' font-family='Arial' font-size='12'>2885.48</text>
+<line x1='90' y1='170' x2='1160' y2='170' stroke='#e5e7eb'/>
+<text x='78' y='175' text-anchor='end' font-family='Arial' font-size='12'>3847.31</text>
+<line x1='90' y1='70' x2='1160' y2='70' stroke='#e5e7eb'/>
+<text x='78' y='75' text-anchor='end' font-family='Arial' font-size='12'>4809.14</text>
+<line x1='90' y1='70' x2='90' y2='570' stroke='#111827'/>
+<line x1='90' y1='570' x2='1160' y2='570' stroke='#111827'/>
+<rect x='102' y='553.723846221764' width='22' height='16.2761537782359' fill='#2563eb'/>
+<rect x='126' y='555.568851162917' width='22' height='14.4311488370828' fill='#16a34a'/>
+<rect x='150' y='562.940842777228' width='22' height='7.05915722277181' fill='#dc2626'/>
+<rect x='174' y='558.820138960128' width='22' height='11.1798610398718' fill='#9333ea'/>
+<rect x='198' y='555.116619140055' width='22' height='14.8833808599454' fill='#f59e0b'/>
+<text x='179.166666666667' y='598' text-anchor='middle' font-family='Arial' font-size='13'>-uni</text>
+<rect x='280.333333333333' y='498.463181868223' width='22' height='71.5368181317774' fill='#2563eb'/>
+<rect x='304.333333333333' y='540.740672052376' width='22' height='29.2593279476236' fill='#16a34a'/>
+<rect x='328.333333333333' y='533.147644426674' width='22' height='36.8523555733256' fill='#dc2626'/>
+<rect x='352.333333333333' y='523.942489660525' width='22' height='46.057510339475' fill='#9333ea'/>
+<rect x='376.333333333333' y='495.097582518285' width='22' height='74.9024174817154' fill='#f59e0b'/>
+<text x='357.5' y='598' text-anchor='middle' font-family='Arial' font-size='13'>-zipf</text>
+<rect x='458.666666666667' y='555.810409118788' width='22' height='14.1895908812119' fill='#2563eb'/>
+<rect x='482.666666666667' y='554.033684615947' width='22' height='15.9663153840531' fill='#16a34a'/>
+<rect x='506.666666666667' y='562.579678594945' width='22' height='7.42032140505479' fill='#dc2626'/>
+<rect x='530.666666666667' y='559.322819105411' width='22' height='10.6771808945895' fill='#9333ea'/>
+<rect x='554.666666666667' y='554.361594309279' width='22' height='15.6384056907213' fill='#f59e0b'/>
+<text x='535.833333333333' y='598' text-anchor='middle' font-family='Arial' font-size='13'>-loop</text>
+<rect x='637' y='516.33954054905' width='22' height='53.6604594509504' fill='#2563eb'/>
+<rect x='661' y='516.211616402524' width='22' height='53.7883835974757' fill='#16a34a'/>
+<rect x='685' y='540.664885527629' width='22' height='29.3351144723707' fill='#dc2626'/>
+<rect x='709' y='526.495118038277' width='22' height='43.5048819617226' fill='#9333ea'/>
+<rect x='733' y='514.450336497054' width='22' height='55.5496635029461' fill='#f59e0b'/>
+<text x='714.166666666667' y='598' text-anchor='middle' font-family='Arial' font-size='13'>-read-heavy</text>
+<rect x='815.333333333333' y='565.545447012504' width='22' height='4.45455298749557' fill='#2563eb'/>
+<rect x='839.333333333333' y='565.962538884864' width='22' height='4.03746111513555' fill='#16a34a'/>
+<rect x='863.333333333333' y='567.95926917679' width='22' height='2.04073082321013' fill='#dc2626'/>
+<rect x='887.333333333333' y='567.217815624242' width='22' height='2.78218437575831' fill='#9333ea'/>
+<rect x='911.333333333333' y='565.646697060738' width='22' height='4.35330293926221' fill='#f59e0b'/>
+<text x='892.5' y='598' text-anchor='middle' font-family='Arial' font-size='13'>-w-h</text>
+<rect x='993.666666666667' y='253.296322696202' width='22' height='316.703677303798' fill='#2563eb'/>
+<rect x='1017.66666666667' y='202.717892014865' width='22' height='367.282107985135' fill='#16a34a'/>
+<rect x='1041.66666666667' y='134.240418790236' width='22' height='435.759581209764' fill='#dc2626'/>
+<rect x='1065.66666666667' y='123.571428571429' width='22' height='446.428571428571' fill='#9333ea'/>
+<rect x='1089.66666666667' y='177.244178666949' width='22' height='392.755821333051' fill='#f59e0b'/>
+<text x='1070.83333333333' y='598' text-anchor='middle' font-family='Arial' font-size='13'>-burst</text>
+<rect x='90' y='644' width='16' height='16' fill='#2563eb'/>
+<text x='114' y='657' font-family='Arial' font-size='14'>LRU</text>
+<rect x='280' y='644' width='16' height='16' fill='#16a34a'/>
+<text x='304' y='657' font-family='Arial' font-size='14'>MRU</text>
+<rect x='470' y='644' width='16' height='16' fill='#dc2626'/>
+<text x='494' y='657' font-family='Arial' font-size='14'>LFU</text>
+<rect x='660' y='644' width='16' height='16' fill='#9333ea'/>
+<text x='684' y='657' font-family='Arial' font-size='14'>Random</text>
+<rect x='850' y='644' width='16' height='16' fill='#f59e0b'/>
+<text x='874' y='657' font-family='Arial' font-size='14'>Noeviction</text>
+</svg>
