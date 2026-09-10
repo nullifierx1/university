@@ -112,3 +112,20 @@ target/
 out/
 bin/
 obj/
+
+# System Verilog
+*.v
+*qsf
+*qpf
+*.tcl
+*.patch
+*.bif
+*.xdc
+*.ld
+*.qip
+*.vh
+*.sdc
+
+# Windows & Linux Scrpts
+*.cmd
+*.sh
