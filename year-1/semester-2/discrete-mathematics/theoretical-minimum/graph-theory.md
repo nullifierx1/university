@@ -1,0 +1,1 @@
+$$ \sum_{i=1}^k d_i \le k(k-1) + \sum_{i=k+1}^n \min(k, d_i) $$
