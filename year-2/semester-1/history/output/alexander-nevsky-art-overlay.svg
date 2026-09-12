@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1054" height="2850" viewBox="0 0 1054 2850">
+  <defs>
+    <linearGradient id="parchment" x2="0" y2="1"><stop stop-color="#ead1a0"/><stop offset=".45" stop-color="#f3dfb6"/><stop offset="1" stop-color="#ddbd7f"/></linearGradient>
+    <pattern id="grain" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="4" cy="5" r="1" fill="#6f4b22" opacity=".10"/><circle cx="17" cy="15" r=".8" fill="#6f4b22" opacity=".08"/></pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#4d3117" flood-opacity=".28"/></filter>
+    <style>
+      .date { font: 700 23px Georgia, serif; fill: #8f2c28; letter-spacing: .6px; }
+      .title { font: 700 22px Georgia, serif; fill: #142e45; }
+      .text { font: 18px Arial, sans-serif; fill: #273642; }
+      .small-date { font: 700 20px Georgia, serif; fill: #8f2c28; letter-spacing: .4px; }
+      .small-title { font: 700 21px Georgia, serif; fill: #142e45; }
+      .small-text { font: 17px Arial, sans-serif; fill: #273642; }
+      .header { font: 700 33px Georgia, serif; fill: #142e45; letter-spacing: 1px; }
+      .subheader { font: 18px Arial, sans-serif; fill: #8f2c28; }
+    </style>
+    <clipPath id="leftIcon"><circle cx="92" cy="0" r="67"/></clipPath>
+    <clipPath id="rightIcon"><circle cx="962" cy="0" r="67"/></clipPath>
+  </defs>
+
+  <image href="alexander-nevsky-art-base.png" x="0" y="0" width="1054" height="1496"/>
+
+  <text x="310" y="640" text-anchor="middle" class="date">1221</text>
+  <text x="310" y="677" text-anchor="middle" class="title">Рождение</text>
+  <text x="310" y="707" text-anchor="middle" class="text">г. Переславль</text>
+  <text x="720" y="640" text-anchor="middle" class="date">1236</text>
+  <text x="720" y="677" text-anchor="middle" class="title">Новгород</text>
+  <text x="720" y="707" text-anchor="middle" class="text">Стал князем города</text>
+  <text x="310" y="861" text-anchor="middle" class="date">1237-1240</text>
+  <text x="310" y="898" text-anchor="middle" class="title">Нашествие Батыя</text>
+  <text x="310" y="928" text-anchor="middle" class="text">Русь была разорена</text>
+  <text x="720" y="861" text-anchor="middle" class="date">15 ИЮЛЯ 1240</text>
+  <text x="720" y="898" text-anchor="middle" class="title">Невская битва</text>
+  <text x="720" y="928" text-anchor="middle" class="text">Победа над шведами</text>
+  <text x="310" y="1118" text-anchor="middle" class="date">1241</text>
+  <text x="310" y="1155" text-anchor="middle" class="title">Возвращение</text>
+  <text x="310" y="1182" text-anchor="middle" class="text">Вернулся в Новгород</text>
+  <text x="310" y="1208" text-anchor="middle" class="text">Взял Копорье</text>
+  <text x="720" y="1118" text-anchor="middle" class="date">МАРТ 1242</text>
+  <text x="720" y="1155" text-anchor="middle" class="title">Псков и Изборск</text>
+  <text x="720" y="1185" text-anchor="middle" class="text">Города освобождены</text>
+
+  <rect x="0" y="1485" width="1054" height="1365" fill="url(#parchment)"/>
+  <rect x="0" y="1485" width="1054" height="1365" fill="url(#grain)"/>
+  <rect x="18" y="1500" width="1018" height="1318" rx="18" fill="none" stroke="#a37a2f" stroke-width="5"/>
+  <rect x="34" y="1516" width="986" height="1286" rx="12" fill="none" stroke="#17364d" stroke-width="2" opacity=".75"/>
+  <path d="M67 1640H987M67 1648H987" stroke="#a37a2f" stroke-width="3"/>
+  <text x="527" y="1570" text-anchor="middle" class="header">ДАТЫ ИЗ ЖИЗНИ КНЯЗЯ</text>
+
+  <!-- Ряд 1 -->
+  <g filter="url(#shadow)"><rect x="165" y="1675" width="325" height="195" rx="22" fill="#f7e7c5" stroke="#b78d40" stroke-width="3"/><rect x="564" y="1675" width="325" height="195" rx="22" fill="#f7e7c5" stroke="#b78d40" stroke-width="3"/></g>
+  <g clip-path="url(#leftIcon)" transform="translate(0,1772)"><image href="alexander-nevsky-art-base.png" x="-815" y="-110" width="1054" height="1496"/></g><circle cx="92" cy="1772" r="67" fill="none" stroke="#aa7b31" stroke-width="4"/>
+  <g clip-path="url(#rightIcon)" transform="translate(0,1772)"><image href="alexander-nevsky-art-base.png" x="55" y="-110" width="1054" height="1496"/></g><circle cx="962" cy="1772" r="67" fill="none" stroke="#aa7b31" stroke-width="4"/>
+  <text x="327" y="1724" text-anchor="middle" class="small-date">5 АПРЕЛЯ 1242</text><text x="327" y="1760" text-anchor="middle" class="small-title">Ледовое побоище</text><text x="327" y="1790" text-anchor="middle" class="small-text">Битва на Чудском озере</text>
+  <text x="726" y="1724" text-anchor="middle" class="small-date">1247 И 1249</text><text x="726" y="1760" text-anchor="middle" class="small-title">Поездки в Орду</text><text x="726" y="1790" text-anchor="middle" class="small-text">Встречи с ханами</text>
+
+  <!-- Ряд 2 -->
+  <g filter="url(#shadow)"><rect x="165" y="1905" width="325" height="195" rx="22" fill="#f7e7c5" stroke="#b78d40" stroke-width="3"/><rect x="564" y="1905" width="325" height="195" rx="22" fill="#f7e7c5" stroke="#b78d40" stroke-width="3"/></g>
+  <g clip-path="url(#leftIcon)" transform="translate(0,2002)"><image href="alexander-nevsky-art-base.png" x="-18" y="-1135" width="1054" height="1496"/></g><circle cx="92" cy="2002" r="67" fill="none" stroke="#aa7b31" stroke-width="4"/>
+  <g clip-path="url(#rightIcon)" transform="translate(0,2002)"><image href="alexander-nevsky-art-base.png" x="854" y="-680" width="1054" height="1496"/></g><circle cx="962" cy="2002" r="67" fill="none" stroke="#aa7b31" stroke-width="4"/>
+  <text x="327" y="1954" text-anchor="middle" class="small-date">1248</text><text x="327" y="1990" text-anchor="middle" class="small-title">Отказ Риму</text><text x="327" y="2020" text-anchor="middle" class="small-text">Сохранил веру Руси</text>
+  <text x="726" y="1954" text-anchor="middle" class="small-date">1252-1263</text><text x="726" y="1990" text-anchor="middle" class="small-title">Главный князь</text><text x="726" y="2020" text-anchor="middle" class="small-text">Во Владимире</text>
+
+  <!-- Ряд 3 -->
+  <g filter="url(#shadow)"><rect x="165" y="2135" width="325" height="195" rx="22" fill="#f7e7c5" stroke="#b78d40" stroke-width="3"/><rect x="564" y="2135" width="325" height="195" rx="22" fill="#f7e7c5" stroke="#b78d40" stroke-width="3"/></g>
+  <g clip-path="url(#leftIcon)" transform="translate(0,2232)"><image href="alexander-nevsky-art-base.png" x="-18" y="-900" width="1054" height="1496"/></g><circle cx="92" cy="2232" r="67" fill="none" stroke="#aa7b31" stroke-width="4"/>
+  <g clip-path="url(#rightIcon)" transform="translate(0,2232)"><image href="alexander-nevsky-art-base.png" x="17" y="-1135" width="1054" height="1496"/></g><circle cx="962" cy="2232" r="67" fill="none" stroke="#aa7b31" stroke-width="4"/>
+  <text x="327" y="2184" text-anchor="middle" class="small-date">1256</text><text x="327" y="2220" text-anchor="middle" class="small-title">Северо-запад</text><text x="327" y="2250" text-anchor="middle" class="small-text">Новый поход князя</text>
+  <text x="726" y="2184" text-anchor="middle" class="small-date">1262-1263</text><text x="726" y="2220" text-anchor="middle" class="small-title">Последняя поездка</text><text x="726" y="2250" text-anchor="middle" class="small-text">Переговоры в Орде</text>
+
+  <!-- Ряд 4 -->
+  <g filter="url(#shadow)"><rect x="165" y="2365" width="325" height="195" rx="22" fill="#f7e7c5" stroke="#b78d40" stroke-width="3"/><rect x="564" y="2365" width="325" height="195" rx="22" fill="#f7e7c5" stroke="#b78d40" stroke-width="3"/></g>
+  <g clip-path="url(#leftIcon)" transform="translate(0,2462)"><image href="alexander-nevsky-art-base.png" x="-853" y="-675" width="1054" height="1496"/></g><circle cx="92" cy="2462" r="67" fill="none" stroke="#aa7b31" stroke-width="4"/>
+  <g clip-path="url(#rightIcon)" transform="translate(0,2462)"><image href="alexander-nevsky-art-base.png" x="852" y="-900" width="1054" height="1496"/></g><circle cx="962" cy="2462" r="67" fill="none" stroke="#aa7b31" stroke-width="4"/>
+  <text x="327" y="2414" text-anchor="middle" class="small-date">14 НОЯБРЯ 1263</text><text x="327" y="2450" text-anchor="middle" class="small-title">Смерть князя</text><text x="327" y="2480" text-anchor="middle" class="small-text">Умер в Городце</text>
+  <text x="726" y="2414" text-anchor="middle" class="small-date">1547</text><text x="726" y="2450" text-anchor="middle" class="small-title">Стал святым</text><text x="726" y="2480" text-anchor="middle" class="small-text">Память о князе</text>
+
+  <!-- Ряд 5 -->
+  <g filter="url(#shadow)"><rect x="165" y="2595" width="325" height="195" rx="22" fill="#f7e7c5" stroke="#b78d40" stroke-width="3"/><rect x="564" y="2595" width="325" height="195" rx="22" fill="#f7e7c5" stroke="#b78d40" stroke-width="3"/></g>
+  <g clip-path="url(#leftIcon)" transform="translate(0,2692)"><image href="alexander-nevsky-art-base.png" x="-18" y="-900" width="1054" height="1496"/></g><circle cx="92" cy="2692" r="67" fill="none" stroke="#aa7b31" stroke-width="4"/>
+  <g clip-path="url(#rightIcon)" transform="translate(0,2692)"><image href="alexander-nevsky-art-base.png" x="854" y="-680" width="1054" height="1496"/></g><circle cx="962" cy="2692" r="67" fill="none" stroke="#aa7b31" stroke-width="4"/>
+  <text x="327" y="2644" text-anchor="middle" class="small-date">30 АВГУСТА 1724</text><text x="327" y="2680" text-anchor="middle" class="small-title">Память о князе</text><text x="327" y="2710" text-anchor="middle" class="small-text">Мощи в Петербурге</text>
+  <text x="726" y="2644" text-anchor="middle" class="small-date">1725</text><text x="726" y="2680" text-anchor="middle" class="small-title">Орден Невского</text><text x="726" y="2710" text-anchor="middle" class="small-text">Учреждён в его честь</text>
+
+</svg>
