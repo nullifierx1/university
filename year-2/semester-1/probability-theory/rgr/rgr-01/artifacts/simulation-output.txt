@@ -1,0 +1,5 @@
+﻿Experiments: 10000
+Successes: 2585
+Empirical probability: 0.2585000
+Theoretical probability: 0.2624109
+Absolute difference: 0.0039109
