@@ -33,7 +33,7 @@ When editing lecture notes, distinguish between:
 
 The first two are allowed.
 
-The third is forbidden unless the task explicitly asks for expansion or external research.
+The third is forbidden unless the task explicitly asks for expansion or external research. Author notes in angle brackets (`<...>`) count as explicit requests to complete the indicated content; see section 21.
 
 ---
 
@@ -165,6 +165,8 @@ The purpose is to preserve the mental model formed during the lecture.
 # 5. Do not invent examples
 
 Examples are part of the lecturer's explanation and should be preserved.
+
+Exception: an author instruction such as `<пример>` or `<придумать пример>` asks the agent to create a relevant example. Follow section 21 and keep it within the lecture's subject and existing scenario.
 
 If the original lecture contains an example with:
 
@@ -658,6 +660,18 @@ Introduce a formal term when it helps map the lecturer's wording to standard ter
 
 # 21. Handling incomplete notes
 
+### Angle brackets are instructions to the agent
+
+The author uses angle brackets (`<...>`, also called "треугольные скобки") to request completion by the agent, not to mark gaps for preservation. Examples include `<пример>`, `<добавить конкретики>`, `<... + пример>` and `<... чет записать>`. A clearly intended author instruction with a missing closing bracket has the same meaning; infer its end from the next independent paragraph or list item.
+
+Complete these requests directly: supply the explanation, definition, example, table values, code or missing list item that fits the surrounding topic. This is explicit authorization to supplement that fragment and overrides the default restrictions on adding examples, theory and table data. It does not authorize unrelated expansion. Literal HTML/XML tags, code syntax, generics and mathematical comparisons are not author instructions.
+
+Replace each marker with finished material. Do not substitute "не записано", "пример отсутствует" or a TODO for a request that can be completed. Use existing entities and notation first; choose consistent illustrative values where the requested example needs them. Never present newly created values or wording as recovered lecturer material.
+
+Check technical additions against reliable primary sources when needed. Integrate them into readable notes; a single brief provenance note and relevant source links can distinguish the additions without labeling every paragraph. If a requested historical fact, quotation or specific lecturer example cannot be established, state that narrow uncertainty instead of fabricating it.
+
+### Other incomplete fragments
+
 Raw notes often contain unfinished fragments.
 
 Examples:
@@ -710,6 +724,8 @@ External knowledge may be used only when the task explicitly asks to:
 - supplement;
 - add references;
 - clarify missing theory.
+
+Author instructions in angle brackets (section 21) are such requests within the scope of the marked fragment.
 
 When external material is used, clearly distinguish it from the lecturer's material.
 
@@ -785,7 +801,7 @@ More polished is not always better.
 Do not:
 
 - turn notes into an encyclopedia article;
-- invent examples;
+- add examples without authorization (angle-bracket requests are authorization);
 - invent facts;
 - invent lecturer explanations;
 - overformalize informal lecture language;
@@ -816,6 +832,7 @@ Before finalizing the edited lecture, check the following.
 - Did I accidentally introduce a new example?
 - Did I add theoretical material that was not present in the source?
 - Does the result still reflect how the lecture was understood?
+- Have all author instructions in angle brackets been completed, without mistaking literal syntax for an instruction or leaving avoidable gap notices?
 
 ### Style
 
@@ -853,7 +870,7 @@ When asked to format a lecture file:
 1. Read the original notes completely before editing.
 2. Identify the lecturer's main sequence of ideas.
 3. Identify examples that must be preserved.
-4. Identify fragments that are incomplete or ambiguous.
+4. Identify fragments that are incomplete or ambiguous. Treat author instructions in angle brackets as completion tasks under section 21, including clearly unfinished markers.
 5. Build only the minimum useful heading structure.
 6. Rewrite fragments into connected prose while preserving the original meaning.
 7. Convert genuine enumerations into lists.
