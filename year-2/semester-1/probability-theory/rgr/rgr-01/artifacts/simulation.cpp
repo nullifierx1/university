@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <cmath>
+#include <iomanip>
 
 using namespace std;
 
@@ -89,7 +90,6 @@ bool runExperiment() {
     int dCount = 0;
 
     bool haveA1 = false;
-    bool haveA2 = false;
 
     for (int card : hand) {
         if (card == A1) {
@@ -97,7 +97,6 @@ bool runExperiment() {
             haveA1 = true;
         } else if (card == A2) {
             ++aCount;
-            haveA2 = true;
         } else if (card == B) {
             ++bCount;
         } else if (card == D) {
@@ -108,8 +107,8 @@ bool runExperiment() {
     if (aCount == 2)
         return true;
 
-    if (aCount == 1 && bCount == 1) 
-		return true;
+    if (aCount == 1 && bCount == 1)
+        return true;
 
     if (aCount == 0 && bCount == 1) {
         int first = drawTop(deck);
@@ -129,14 +128,14 @@ bool runExperiment() {
 
         int first = drawTop(deck);
 
-        if (first == B) 
-			return true;
+        if (first == B)
+            return true;
 
         if (first == C)
             return false;
 
-        if (first == missingA) 
-			return dCount > 0;
+        if (first == missingA)
+            return dCount > 0;
 
         int second = drawTop(deck);
         return second == B;
@@ -177,6 +176,7 @@ int main() {
     double theoretical = 12739.0 / 48546.0;
     double difference = fabs(empirical - theoretical);
 
+    cout << fixed << setprecision(7);
     cout << "Experiments: " << experiments << '\n';
     cout << "Successes: " << successCount << '\n';
     cout << "Empirical probability: " << empirical << '\n';
