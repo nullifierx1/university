@@ -129,3 +129,8 @@ obj/
 # Windows & Linux Scrpts
 *.cmd
 *.sh
+
+# Microsoft Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx
