@@ -50,21 +50,15 @@ bool runExperiment() {
     while (static_cast<int>(hand.size()) < 5) {
         int card = drawTop(deck);
 
-        if (card == C) {
-            aside.push_back(card);
-        } else {
-            hand.push_back(card);
-        }
+        if (card == C) aside.push_back(card);
+        else hand.push_back(card);
     }
 
     vector<int> kept;
 
     for (int card : hand) {
-        if (isKey(card)) {
-            kept.push_back(card);
-        } else {
-            aside.push_back(card);
-        }
+        if (isKey(card)) kept.push_back(card);
+        else aside.push_back(card);
     }
 
     hand = kept;
@@ -72,17 +66,11 @@ bool runExperiment() {
     while (static_cast<int>(hand.size()) < 5) {
         int card = drawTop(deck);
 
-        if (card == C) {
-            aside.push_back(card);
-        } else {
-            hand.push_back(card);
-        }
+        if (card == C) aside.push_back(card);
+        else hand.push_back(card);
     }
 
-    for (int card : aside) {
-        deck.push_back(card);
-    }
-
+    for (int card : aside) deck.push_back(card);
     shuffleDeck(deck);
 
     int aCount = 0;
@@ -104,20 +92,14 @@ bool runExperiment() {
         }
     }
 
-    if (aCount == 2)
-        return true;
-
-    if (aCount == 1 && bCount == 1)
-        return true;
+    if (aCount == 2) return true;
+    if (aCount == 1 && bCount == 1) return true;
 
     if (aCount == 0 && bCount == 1) {
         int first = drawTop(deck);
 
-        if (isA(first))
-            return true;
-
-        if (first == C)
-            return false;
+        if (isA(first)) return true;
+        if (first == C) return false;
 
         int second = drawTop(deck);
         return isA(second);
@@ -125,27 +107,19 @@ bool runExperiment() {
 
     if (aCount == 1 && bCount == 0) {
         int missingA = haveA1 ? A2 : A1;
-
         int first = drawTop(deck);
 
-        if (first == B)
-            return true;
-
-        if (first == C)
-            return false;
-
-        if (first == missingA)
-            return dCount > 0;
+        if (first == B) return true;
+        if (first == C) return false;
+        if (first == missingA) return dCount > 0;
 
         int second = drawTop(deck);
         return second == B;
     }
 
     int first = drawTop(deck);
-
-    if (first == C) {
-        return false;
-    }
+	
+    if (first == C) return false;
 
     if (first == B) {
         int second = drawTop(deck);
@@ -167,9 +141,7 @@ int main() {
     int successCount = 0;
 
     for (int i = 0; i < experiments; ++i) {
-        if (runExperiment()) {
-            ++successCount;
-        }
+        if (runExperiment()) ++successCount;
     }
 
     double empirical = static_cast<double>(successCount) / experiments;
